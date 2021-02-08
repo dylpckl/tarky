@@ -1,0 +1,66 @@
+.body {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__top, .main__bottom {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.main__top {
+    margin-bottom: 30px;
+    min-height: 70vh;
+    flex-direction: column;
+}
+
+.main__top__info, .main__bottom__info {
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.main__top__info > form {
+    padding-left: 15px;
+}
+
+.main__top__info > form > input {
+    border: none;
+    outline-width: 0;
+    border-radius: 999px;
+    background-color: lightgray;
+    margin: 0 10px;
+    padding: 5px 25px;
+    width: 15vw;
+}
+
+.main__top__content, .main__bottom__content {
+    padding: 15px;
+    height: 100%;
+}
+
+.main__bottom {
+    flex-direction: column;
+}
+
+.squadmates {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.squadmates > div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
