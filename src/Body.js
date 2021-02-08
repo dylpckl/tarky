@@ -62,11 +62,11 @@ function Body() {
 
         <div className="main__top__content">
           <div className={classes.root}>
-            <MapAccordion mapName="woods" text="here are some woods quests" />
-            <MapAccordion mapName="customs" text="custies quests" />
-            <MapAccordion mapName="shoreline" text="wow shoreline sucks" />
-            <MapAccordion mapName="labs" text="pestily go labs" />
-            <MapAccordion mapName="factory" text="scav boss when" />
+            <MapAccordion mapName="Woods" text="here are some woods quests" />
+            <MapAccordion mapName="Customs" text="custies quests" />
+            <MapAccordion mapName="Shoreline" text="wow shoreline sucks" />
+            <MapAccordion mapName="Labs" text="pestily go labs" />
+            <MapAccordion mapName="Factory" text="scav boss when" />
           </div>
         </div>
       </div>

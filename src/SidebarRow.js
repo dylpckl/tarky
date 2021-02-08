@@ -7,9 +7,10 @@ function SidebarRow({ src, Icon, title }) {
         <div className='sidebarRow'>
             {src && <Avatar src={src} />}
             {/* {Icon && <Icon />} */}
-            <Tooltip title={title} placement="right">
+            {/* <Tooltip title={title} placement="right" arrow>*/}
+            <Tooltip title={<h3 style={{ color: "white" }}>{title}</h3>} placement="right" arrow>
                 <IconButton>
-                    {Icon && <Icon />}
+                    {Icon && <Icon style={{ fontSize: 30 }} />}
                 </IconButton>    
             </Tooltip>
         </div>

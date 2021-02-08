@@ -6,6 +6,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Chip } from "@material-ui/core";
+import StarIcon from '@material-ui/icons/Star';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,6 +44,7 @@ function MapAccordion({ mapName, text }) {
         <Typography className={classes.secondaryHeading}>
           <Chip label="chippy"/>
           <Chip label="chippy"/>
+          <StarIcon />
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
